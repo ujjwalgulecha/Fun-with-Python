@@ -1,0 +1,6 @@
+from facepy import GraphAPI
+
+ACCESS_TOKEN ='CAACEdEose0cBABcavPJpt0I76rZCz4ZCsPXOZB6zQr3koO4I9K34mOU5P3fR28Fw9iebQZAri0IjKugkVVCkaaZBQnLUF15x3wmBBqZAC9UftwCbACZBJcZCtCSZCVAITyUMn02GmA7GRBth5b7IhZBBFNUVny4dvZBE4BmSKfvACJzYvfTGMjpSVZCshaaodYqVIyTj7ZA1VDjUtnowU8LZARKWsc4tBml2hc1FgcrgmuA8kb8gZDZD' 
+
+graph = GraphAPI(ACCESS_TOKEN)
+graph.post('me/feed', message='Trial Message')
